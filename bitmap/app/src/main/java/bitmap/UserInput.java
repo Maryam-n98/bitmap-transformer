@@ -48,8 +48,8 @@ class UserInput {
     }
 
     private static void setBitmapClass() {
-        String imageFilePath = "C:\\Users\\Motas\\asac\\401\\bitmap\\bitmap-transformer\\bitmap\\app\\src\\main\\resources\\" + fileToManipulate;
-        String newFilePath = "C:\\Users\\Motas\\asac\\401\\bitmap\\bitmap-transformer\\bitmap\\app\\src\\main\\resources\\";
+        String imageFilePath = "C:\\Users\\Lenovo\\OneDrive\\Desktop\\java\\bitmap-transformer\\bitmap\\app\\src\\main\\resources\\" + fileToManipulate;
+        String newFilePath = "C:\\Users\\Lenovo\\OneDrive\\Desktop\\java\\bitmap-transformer\\bitmap\\app\\src\\main\\resources\\";
         String newFile = newFileName + ".bmp";
 
         Bitmap newImage = new Bitmap(imageFilePath, newFilePath, newFile);
